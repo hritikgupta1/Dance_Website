@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Hritik Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar 
+        ul 
+            div.fulllogo
+                div.logo
+                    img(src="static/logo1.jpg", alt="err") 
+                div.text
+                    |HDA
+            li #[a(href='/') Home ]
+            li #[a(href='/') About ]
+            li #[a(href='/contact') Contact us ]
+            li #[a(href='/') Services ]
+    block content
+    footer#footer 
+        |Copyright © 2022 www.hritikdanceacademy.com | All rights reserved.

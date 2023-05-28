@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title Hritik Dance Academy
+    style 
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul 
+            div.fulllogo
+                div.logo
+                    img(src="static/logo1.jpg", alt="err") 
+                div.text
+                    |HDA
+            li #[a(href='/') Home ]
+            li #[a(href='/') About ]
+            li #[a(href='/') Contact us ]
+            li #[a(href='/') Services ]
+    
+    section#introsection 
+        div Welcome to Hritik Dance Academy
+        div.small Real feel of dance is here
+
+    section#missionsection 
+        h3 Our mission 
+        div.card
+            div.card1 #[p Dance perfection] 
+                div.cardbox 
+                    div.cardimg 
+                        img(src="static/card1.png", alt="err")
+                    div.cardcontent 
+                        p This is world's best website that ever made in this universe.
+            div.card2 #[p Dance the way you like ]
+                div.cardbox 
+                    div.cardimg 
+                        img(src="static/card2.png", alt="err")
+                    div.cardcontent 
+                        p This is world's best website that ever made in this universe.
+            div.card3 #[p Expert teaching]
+                div.cardbox 
+                    div.cardimg 
+                        img(src="static/card3.png", alt="err")
+                    div.cardcontent 
+                        p This is world's best website that ever made in this universe.
+
+    section#sponsersection 
+        h3 Our sponsers
+        div.img 
+            div.img1 #[img(src="static/sponser1.png",alt='err')]
+            div.img2 #[img(src="static/sponser2.png",alt='err')]
+            div.img3 #[img(src="static/sponser3.png",alt='err')]
+            div.img4 #[img(src="static/sponser5.png",alt='err')]
+            div.img5 #[img(src="static/sponser4.png",alt='err')]
+        
+    footer#footer 
+        |Copyright © 2022 www.hritikdanceacademy.com | All rights reserved.
+
+    include ../static/index.js
